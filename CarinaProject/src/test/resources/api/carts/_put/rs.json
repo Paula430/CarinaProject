@@ -1,0 +1,60 @@
+{
+  "id": 1,
+  "products": [
+    {
+      "id": 168,
+      "title": "Charger SXT RWD",
+      "price": 32999.99,
+      "quantity": 3,
+      "total": 98999.97,
+      "discountPercentage": 13.39,
+      "discountedPrice": 85744,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/vehicle/Charger%20SXT%20RWD/thumbnail.png"
+    },
+    {
+      "id": 78,
+      "title": "Apple MacBook Pro 14 Inch Space Grey",
+      "price": 1999.99,
+      "quantity": 2,
+      "total": 3999.98,
+      "discountPercentage": 18.52,
+      "discountedPrice": 3259,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png"
+    },
+    {
+      "id": 183,
+      "title": "Green Oval Earring",
+      "price": 24.99,
+      "quantity": 5,
+      "total": 124.94999999999999,
+      "discountPercentage": 6.28,
+      "discountedPrice": 117,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/womens-jewellery/Green%20Oval%20Earring/thumbnail.png"
+    },
+    {
+      "id": 100,
+      "title": "Apple Airpods",
+      "price": 129.99,
+      "quantity": 5,
+      "total": 649.95,
+      "discountPercentage": 12.84,
+      "discountedPrice": 566,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
+    },
+    {
+      "id": 1,
+      "title": "Essence Mascara Lash Princess",
+      "price": 9.99,
+      "quantity": 1,
+      "total": 9.99,
+      "discountPercentage": 7.17,
+      "discountedPrice": 9,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+    }
+  ],
+  "total": 103784.84,
+  "discountedTotal": 89695,
+  "userId": 33,
+  "totalProducts": 5,
+  "totalQuantity": 16
+}

@@ -1,0 +1,16 @@
+{
+  <#if userId??>"userId": "${userId}",</#if>
+  "products": [
+    {
+      <#if product1_id??>"id": "${product1_id}",</#if>
+      "quantity": 4
+    },
+    {
+      <#if product2_id??>"id": "${product2_id}",</#if>
+      "quantity": 1
+    }
+  ]
+}
+
+
+
