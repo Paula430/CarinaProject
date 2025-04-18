@@ -1,0 +1,28 @@
+[2025-04-18 09:50:08] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.automationexercise.com/
+selenium_url=http://192.168.1.108:4444
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2025-04-18 09:50:08] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-04-18 09:50:13] [1] [INFO] [TestNG] Running:
+  C:\Users\paula\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[2025-04-18 09:50:13] [1] [INFO] Set thread-count=1
+[2025-04-18 09:50:13] [1] [INFO] Set data-provider-thread-count=1
+[2025-04-18 09:50:13] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2025-04-18 09:50:13] [1] [INFO] Starting driver session...
+[2025-04-18 09:50:16] [1] [INFO] Driver session started.
+[2025-04-18 09:50:16] [1] [INFO] INFO: opening url 'https://www.automationexercise.com/'
+[2025-04-18 09:50:19] [1] [INFO] PASS: element 'acceptCookiesBtn' is clicked.
+[2025-04-18 09:50:28] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-04-18 09:50:28] [1] [INFO] RESULT #1: TEST [CarinaProject - contactUsFormTest] FAIL [screenshots=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1745013008027/f09dac58-7665-4602-be06-f9215ee8ba6d/report.html | log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1745013008027/f09dac58-7665-4602-be06-f9215ee8ba6d/test.log]

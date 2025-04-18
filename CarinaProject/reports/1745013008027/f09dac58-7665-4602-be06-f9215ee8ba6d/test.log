@@ -1,0 +1,44 @@
+[2025-04-18 09:50:20] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-04-18 09:50:20] [1] [INFO] TEST [CarinaProject - contactUsFormTest] STARTED at [23:50:20 2025-04-18]
+[2025-04-18 09:50:21] [1] [INFO] PASS: element 'contactUsBtn' is clicked.
+[2025-04-18 09:50:22] [1] [INFO] PASS: keys 'TestName' are sent to element 'nameInput'.
+[2025-04-18 09:50:22] [1] [INFO] PASS: keys 'emailemailemailemail@test.com' are sent to element 'emailInput'.
+[2025-04-18 09:50:23] [1] [INFO] PASS: keys 'TestSubject' are sent to element 'subjectInput'.
+[2025-04-18 09:50:23] [1] [INFO] PASS: keys 'Test message' are sent to element 'messageTextArea'.
+[2025-04-18 09:50:24] [1] [INFO] PASS: keys 'D:\intellideaProjects\CarinaProject\CarinaProject\src\test\resources\images\image.jpg' are sent to element 'fileInput'.
+[2025-04-18 09:50:24] [1] [INFO] Alert accepted
+[2025-04-18 09:50:27] [1] [INFO] PASS: element 'backToHomeBtn' is clicked.
+[2025-04-18 09:50:28] [1] [ERROR] TEST [CarinaProject - contactUsFormTest] FAILED at [23:50:28 2025-04-18] - expected [rgba(255,165,0,1)] but found [rgba(255, 165, 0, 1)]
+
+org.testng.Assert.fail(Assert.java:110)
+org.testng.Assert.failNotEquals(Assert.java:1577)
+org.testng.Assert.assertEqualsImpl(Assert.java:149)
+org.testng.Assert.assertEquals(Assert.java:131)
+org.testng.Assert.assertEquals(Assert.java:655)
+org.testng.Assert.assertEquals(Assert.java:665)
+com.solvd.carina.demo.AutomationWebTest.contactUsFormTest(AutomationWebTest.java:132)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
