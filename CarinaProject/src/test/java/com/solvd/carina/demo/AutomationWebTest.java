@@ -10,7 +10,7 @@ import com.zebrunner.carina.utils.R;
 import org.openqa.selenium.Alert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+
 
 import java.util.List;
 
@@ -18,7 +18,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 /**
- * UI testing for webpage: https://www.automationexercise.com/
+ * UI testing for webpage "https://www.automationexercise.com/"
  *
  * @author Paula Kawalec
  */
@@ -36,9 +36,7 @@ public class AutomationWebTest implements IAbstractTest {
 
     @Test
     public void addToCartTest(){
-
         List<ProductComponent> productComponents=homePage.getProductComponents();
-
         for(ProductComponent component: productComponents){
             if(component.getName().equals("Blue Top")){
                 component.clickAdd();

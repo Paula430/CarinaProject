@@ -1,24 +1,15 @@
 package com.solvd.carina.demo;
 
 import java.lang.invoke.MethodHandles;
-import java.time.temporal.ChronoUnit;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.solvd.carina.demo.api.*;
-import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
-
 import com.zebrunner.carina.core.IAbstractTest;
-import com.zebrunner.carina.api.APIMethodPoller;
-import com.zebrunner.carina.api.apitools.validation.JsonCompareKeywords;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
-import com.zebrunner.carina.core.registrar.tag.Priority;
-import com.zebrunner.carina.core.registrar.tag.TestPriority;
 
 /**
- * This sample shows how create REST API tests.
+ * API tests validate CRUD operations for a "Cart" API endpoints.
  *
  * @author Paula Kawalec
  */
@@ -26,6 +17,11 @@ public class APITest implements IAbstractTest {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
+
+    /**
+     * Tests the POST endpoint for creating a new cart.
+     *
+     */
     @Test()
     @MethodOwner(owner = "paula")
     public void testPostAddNewCart() throws Exception{
@@ -36,6 +32,10 @@ public class APITest implements IAbstractTest {
         api.validateResponseAgainstSchema("api/carts/_post/rs.schema");
     }
 
+    /**
+     * Tests the PUT endpoint for modifying an existing cart.
+     *
+     */
     @Test()
     @MethodOwner(owner = "paula")
     public void testUpdateCart() {
@@ -45,6 +45,10 @@ public class APITest implements IAbstractTest {
         api.validateResponseAgainstSchema("api/carts/_put/rs.schema");
     }
 
+    /**
+     * Tests the DELETE endpoint for removing a cart.
+     *
+     */
     @Test()
     @MethodOwner(owner = "paula")
     public void testDeleteCart() throws Exception{ // -------------not work
@@ -53,6 +57,10 @@ public class APITest implements IAbstractTest {
         api.validateResponseAgainstSchema("api/carts/_delete/rs.schema");
     }
 
+    /**
+     * Tests the GET endpoint for retrieving a single cart.
+     *
+     */
     @Test()
     @MethodOwner(owner = "paula")
     public void testGetSingleCart(){
@@ -62,6 +70,10 @@ public class APITest implements IAbstractTest {
         api.validateResponseAgainstSchema("api/carts/_get/_getSingle/rs.schema");
     }
 
+    /**
+     * Tests the GET endpoint for fetching carts associated with a user.
+     *
+     */
     @Test()
     @MethodOwner(owner = "paula")
     public void testGetCartsByUser(){ // -- not passed, because something is wrong with API implementation

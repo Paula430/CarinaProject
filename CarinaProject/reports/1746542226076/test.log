@@ -1,0 +1,26 @@
+[2025-05-06 02:37:06] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.automationexercise.com/
+selenium_url=http://192.168.1.108:4444
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2025-05-06 02:37:06] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-05-06 02:37:10] [1] [INFO] [TestNG] Running:
+  C:\Users\paula\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[2025-05-06 02:37:10] [1] [INFO] Set thread-count=1
+[2025-05-06 02:37:10] [1] [INFO] Set data-provider-thread-count=1
+[2025-05-06 02:37:10] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2025-05-06 02:37:11] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-05-06 02:37:11] [1] [INFO] RESULT #1: TEST [XLS0001 CarinaProject - testXlsSumOperation [L01]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746542226076/ec32599f-e04a-4894-937b-c4253895a99a/test.log]
+[2025-05-06 02:37:11] [1] [INFO] RESULT #2: TEST [XLS0002 CarinaProject - testXlsSumOperation [L02]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746542226076/a68aa42d-d52a-4d97-a55b-5759013178eb/test.log]
+[2025-05-06 02:37:11] [1] [INFO] RESULT #3: TEST [XLS0003 CarinaProject - testXlsSumOperation [L03]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746542226076/77f552ac-89b3-403c-b5a8-f44f2576e977/test.log]

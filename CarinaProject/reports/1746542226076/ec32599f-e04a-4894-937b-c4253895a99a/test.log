@@ -1,0 +1,3 @@
+[2025-05-06 02:37:11] [41] [WARN] Reporting disabled: using no op test run registrar
+[2025-05-06 02:37:11] [41] [INFO] TEST [XLS0001 CarinaProject - testXlsSumOperation [L01]] STARTED at [16:37:11 2025-05-06]
+[2025-05-06 02:37:11] [41] [INFO] TEST [XLS0001 CarinaProject - testXlsSumOperation [L01]] PASSED at [16:37:11 2025-05-06]

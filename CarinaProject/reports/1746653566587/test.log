@@ -1,0 +1,31 @@
+[2025-05-07 09:32:46] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.automationexercise.com/
+selenium_url=http://192.168.1.108:4444
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2025-05-07 09:32:46] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-05-07 09:32:49] [1] [INFO] [TestNG] Running:
+  C:\Users\paula\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[2025-05-07 09:32:49] [1] [INFO] Set thread-count=1
+[2025-05-07 09:32:49] [1] [INFO] Set data-provider-thread-count=1
+[2025-05-07 09:32:49] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2025-05-07 09:32:50] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-05-07 09:32:50] [1] [INFO] RESULT #1: TEST [CALC1 CarinaProject - testXlsMathOperations [L01]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/d76a8bcb-fc50-41a6-935f-057ff76b906a/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #2: TEST [CALC2 CarinaProject - testXlsMathOperations [L02]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/e20c48c3-5d5a-4fda-a35e-5e9bb9a80021/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #3: TEST [CALC3 CarinaProject - testXlsMathOperations [L03]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/c35669f5-99f1-4bab-be61-bc49df5776b2/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #4: TEST [CALC4 CarinaProject - testXlsMathOperations [L04]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/a43af4a9-3fa4-4085-bb47-c50f15453fd1/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #5: TEST [CALC5 CarinaProject - testXlsMathOperations [L05]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/e6787d43-a2ff-4262-bd95-befe49996e2e/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #6: TEST [CALC6 CarinaProject - testXlsMathOperations [L06]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/3928d1b2-f6ee-4f9c-84f7-ecf5659644e8/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #7: TEST [CALC7 CarinaProject - testXlsMathOperations [L07]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/e6054617-aebf-426a-87ac-3c0bb142cc92/test.log]
+[2025-05-07 09:32:50] [1] [INFO] RESULT #8: TEST [CALC8 CarinaProject - testXlsMathOperations [L08]] PASS [log=file://D:\intellideaProjects\CarinaProject\CarinaProject\.\reports\1746653566587/bf636f2c-0d88-4717-b87e-40e5f0821a73/test.log]
