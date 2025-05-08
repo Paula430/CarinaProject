@@ -7,6 +7,7 @@ import com.solvd.carina.demo.gui.components.automation.ProductComponent;
 import com.solvd.carina.demo.gui.pages.automation.*;
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.utils.R;
+import io.cucumber.core.gherkin.Feature;
 import org.openqa.selenium.Alert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,6 +23,7 @@ import static org.testng.Assert.assertTrue;
  *
  * @author Paula Kawalec
  */
+
 
 public class AutomationWebTest implements IAbstractTest {
     private HomePage homePage;
@@ -130,14 +132,5 @@ public class AutomationWebTest implements IAbstractTest {
         assertEquals(homePage.getHeaderComponent().getColorHomeBtn(),"rgba(255, 165, 0, 1)");
 
     }
-
-    //test case 9
-
-
-
-
-
-
-
 
 }
